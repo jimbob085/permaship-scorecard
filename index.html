@@ -22,18 +22,18 @@
   /></noscript>
   <!-- End Meta Pixel Code -->
 
-  <title>Permaship | Your App vs Engineer Standards</title>
+  <title>Permaship &mdash; Think Your Vibe-Coded App Is Ready to Go Live?</title>
   <meta name="description" content="Think you'd impress a senior engineer? 7 questions. See how you rank before going live. No email required." />
-  <meta property="og:title" content="Your App vs Engineer Standards" />
-  <meta property="og:description" content="Think you'd impress a senior engineer? 7 questions. See how you rank before going live. No email required." />
+  <meta property="og:title" content="Think Your Vibe-Coded App Is Ready to Go Live?" />
+  <meta property="og:description" content="7 questions designed by senior engineers. See where you rank before going live. No email required." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://jimbob085.github.io/permaship-scorecard/" />
   <meta property="og:image" content="https://jimbob085.github.io/permaship-scorecard/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Your App vs Engineer Standards" />
-  <meta name="twitter:description" content="Think you'd impress a senior engineer? 7 questions. See how you rank before going live. No email required." />
+  <meta name="twitter:title" content="Think Your Vibe-Coded App Is Ready to Go Live?" />
+  <meta name="twitter:description" content="7 questions designed by senior engineers. See where you rank before going live. No email required." />
   <meta name="twitter:image" content="https://jimbob085.github.io/permaship-scorecard/og-image.png" />
   <meta name="theme-color" content="#080C14" />
   <meta name="robots" content="noindex, nofollow" />
@@ -181,7 +181,8 @@
     .scorecard__results-cta>*{position:relative;z-index:1}
     .scorecard__results-cta-context{font-family:var(--font-mono);font-size:0.6875rem;font-weight:500;text-transform:uppercase;letter-spacing:0.08em;color:var(--accent);margin-bottom:var(--space-sm)}
     .scorecard__results-cta-tagline{font-family:var(--font-display);font-size:clamp(1.2rem,2.5vw,1.5rem);font-weight:700;color:var(--text-primary);margin-bottom:var(--space-xs);letter-spacing:-0.02em}
-    .scorecard__results-cta-sub{font-size:0.875rem;line-height:1.5;color:var(--text-primary);opacity:0.7;max-width:680px;margin:0 auto var(--space-md)}
+    .scorecard__results-cta-sub{font-size:0.875rem;line-height:1.5;color:var(--text-primary);opacity:0.7;max-width:680px;margin:0 auto var(--space-sm)}
+    .scorecard__results-cta-diff{font-size:0.875rem;line-height:1.5;color:var(--text-primary);font-weight:500;max-width:680px;margin:0 auto var(--space-md)}
     .scorecard__results-cta-pricing{font-family:var(--font-mono);font-size:0.6875rem;color:var(--text-dim);margin:var(--space-sm) auto 0;letter-spacing:0.02em}
     .scorecard__breakdown{display:flex;flex-direction:column;gap:var(--space-sm);margin-top:var(--space-md);margin-bottom:var(--space-lg)}
     .scorecard__category{background:linear-gradient(165deg,rgba(20,32,54,0.90) 0%,rgba(15,24,42,0.93) 100%);border:1px solid rgba(255,255,255,0.07);border-radius:var(--radius-md);padding:var(--space-md) var(--space-lg);transition:border-color 0.2s ease;box-shadow:0 4px 16px rgba(0,0,0,0.3),inset 0 1px 0 rgba(255,255,255,0.06);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
@@ -192,6 +193,7 @@
     .scorecard__category-bar{width:100%;height:6px;background:rgba(255,255,255,0.06);border-radius:var(--radius-full);overflow:hidden}
     .scorecard__category-fill{height:100%;border-radius:var(--radius-full);transition:width 1.2s cubic-bezier(0.16,1,0.3,1)}
     .fill-ready{background:linear-gradient(90deg,#16A34A,#22C55E)}.fill-solid{background:linear-gradient(90deg,#CA8A04,#EAB308)}.fill-getting-there{background:linear-gradient(90deg,#D97706,#F59E0B)}.fill-at-risk{background:linear-gradient(90deg,#EA580C,#F97316)}.fill-critical{background:linear-gradient(90deg,#B91C1C,#EF4444)}
+    .scorecard__category-detail{font-size:0.75rem;line-height:1.5;color:var(--text-dim);margin-top:var(--space-xs)}
     .score-critical{color:#EF4444}.score-at-risk{color:#F97316}.score-getting-there{color:#F59E0B}.score-solid{color:#EAB308}.score-ready{color:#22C55E}
     .is-hidden{display:none !important}
     .stakes-grid{display:grid;grid-template-columns:1fr;gap:var(--space-md);max-width:1000px;margin:var(--space-2xl) auto 0}
@@ -212,34 +214,34 @@
 </head>
 <body>
   <div id="progress-bar"></div>
-  <div id="sticky-cta"><div><div class="sticky-headline" id="stickyHeadline">Ready to go production-grade?</div></div><a href="https://control.permaship.ai/signup" class="btn-primary" style="white-space:nowrap;padding:11px 22px;font-size:0.88rem;flex-shrink:0">Take The Vibe Out Of Your Code &#8594;</a></div>
-  <nav style="position:sticky;top:0;z-index:100;padding:15px 0;background:rgba(8,12,20,0.92);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid var(--border-subtle)"><div class="container" style="display:flex;align-items:center;justify-content:space-between"><a href="https://permaship.ai" style="text-decoration:none"><span style="font-family:var(--font-display);font-size:1.18rem;font-weight:800;letter-spacing:-0.04em;color:var(--text-primary)">Perma<span style="color:var(--accent)">Ship</span></span></a><a id="navCta" href="https://control.permaship.ai/signup" class="btn-primary" style="padding:10px 20px;font-size:0.84rem;display:none">See How It Works &#8594;</a></div></nav>
+  <div id="sticky-cta"><div><div class="sticky-headline" id="stickyHeadline">Your score revealed gaps. Permaship can fix them.</div></div><a href="https://control.permaship.ai/signup" class="btn-primary" style="white-space:nowrap;padding:11px 22px;font-size:0.88rem;flex-shrink:0">Get Started &#8594;</a></div>
+  <nav style="position:sticky;top:0;z-index:100;padding:15px 0;background:rgba(8,12,20,0.92);backdrop-filter:blur(22px);-webkit-backdrop-filter:blur(22px);border-bottom:1px solid var(--border-subtle)"><div class="container" style="display:flex;align-items:center;justify-content:space-between"><a href="https://permaship.ai" style="text-decoration:none"><span style="font-family:var(--font-display);font-size:1.18rem;font-weight:800;letter-spacing:-0.04em;color:var(--text-primary)">Perma<span style="color:var(--accent)">Ship</span></span></a><a id="navCta" href="https://control.permaship.ai/signup" class="btn-primary" style="padding:10px 20px;font-size:0.84rem;display:none">Get Started &#8594;</a></div></nav>
   <section class="hero-section" id="scorecard">
     <div class="particle-field"><div class="particle" style="left:12%;bottom:20%;animation-duration:9s;animation-delay:-3s">test()</div><div class="particle" style="left:78%;bottom:15%;animation-duration:11s;animation-delay:-2s">deploy()</div><div class="particle" style="left:22%;bottom:30%;animation-duration:8s;animation-delay:-4s">backup()</div><div class="particle" style="left:62%;bottom:10%;animation-duration:13s;animation-delay:-1s">secure()</div><div class="particle" style="left:88%;bottom:35%;animation-duration:10s;animation-delay:-3s">monitor()</div><div class="particle" style="left:5%;bottom:40%;animation-duration:12s;animation-delay:-5s">auth()</div><div class="particle" style="left:30%;bottom:70%;animation-duration:10s;animation-delay:-1s">lint()</div><div class="particle" style="left:55%;bottom:80%;animation-duration:8s;animation-delay:-3s">scan()</div></div>
     <div class="container-narrow" style="text-align:center;position:relative;z-index:2">
       <div id="heroTop">
         <div class="section-label" style="animation:heroFadeIn 0.5s ease-out both"><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Launch Readiness Scorecard</div>
-        <h1 style="font-size:clamp(2.2rem,5.5vw,3.5rem);font-weight:800;line-height:1.06;margin-bottom:14px;animation:heroFadeIn 0.5s ease-out both"><span style="background:var(--hero-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Your App vs Engineer</span><br/><span style="color:var(--text-primary);text-shadow:0 0 40px rgba(29,184,160,0.15),0 0 80px rgba(29,184,160,0.08)">Standards</span></h1>
+        <h1 style="font-size:clamp(2.2rem,5.5vw,3.5rem);font-weight:800;line-height:1.06;margin-bottom:14px;animation:heroFadeIn 0.5s ease-out both"><span style="background:var(--hero-gradient);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Think Your Vibe-Coded App</span><br/><span style="color:var(--text-primary);text-shadow:0 0 40px rgba(29,184,160,0.15),0 0 80px rgba(29,184,160,0.08)">Is Ready to Go Live?</span></h1>
         <div class="hero-shimmer" style="animation:shimmer 3s linear infinite,heroFadeIn 0.5s ease-out both"></div>
-        <p style="font-size:1.3rem;color:var(--text-primary);opacity:0.65;max-width:580px;margin:0 auto var(--space-lg);line-height:1.65;animation:heroFadeIn 0.5s ease-out 0.1s both">Think you'd impress a senior engineer?<br>7 questions. See how you rank before going live. No email required.</p>
+        <p style="font-size:1.3rem;color:var(--text-primary);opacity:0.65;max-width:580px;margin:0 auto var(--space-lg);line-height:1.65;animation:heroFadeIn 0.5s ease-out 0.1s both">A senior engineer would check these 7 things first.<br>See how your app stacks up. No email required.</p>
         <div class="trust-badges"><span class="trust-badge"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2 min</span><span class="trust-badge"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg> Free</span><span class="trust-badge"><svg aria-hidden="true" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg> No email</span></div>
       </div>
       <div class="card-spotlight"></div>
       <div class="scorecard" id="scorecardApp">
-        <div class="scorecard__prime-outer" id="scorecardPrime"><div class="scorecard__prime"><div class="scorecard__prime-title"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;margin-right:6px;opacity:0.7"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Before you start</div><p>No trick questions. Just answer honestly, even if that answer is, "I don't know." Takes about 2 minutes.</p><div class="scorecard__start-wrap"><button class="btn-primary btn-hero-glow" id="scorecardStartBtn" style="font-size:1rem;padding:16px 32px">See How You Rank &#8594;</button></div></div></div>
+        <div class="scorecard__prime-outer" id="scorecardPrime"><div class="scorecard__prime"><div class="scorecard__prime-title"><svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align:-3px;margin-right:6px;opacity:0.7"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>Before you start</div><p>There's no trick questions or wrong answers. It's a free 2 minute assessment designed to help show where you stand. Just answer honestly, even if that answer is, "I don't know."</p><div class="scorecard__start-wrap"><button class="btn-primary btn-hero-glow" id="scorecardStartBtn" style="font-size:1rem;padding:16px 32px">Find Out Your Score &#8594;</button></div></div></div>
         <div class="scorecard__progress" id="scorecardProgress"><div class="scorecard__progress-label"><span id="progressText">Question 1 of 7</span><span id="progressPct">14%</span></div><div class="scorecard__progress-bar"><div class="scorecard__progress-fill" id="progressFill"></div></div></div>
         <div id="scorecardQuestionContainer"></div>
         <div class="scorecard__calculating" id="scorecardCalculating"><div class="scorecard__calc-icon"><svg aria-hidden="true" width="48" height="48" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="20" stroke="rgba(255,255,255,0.1)" stroke-width="3"/><circle cx="24" cy="24" r="20" stroke="url(#calcGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="80 45" class="scorecard__calc-spinner"/><defs><linearGradient id="calcGrad" x1="0" y1="0" x2="48" y2="48"><stop stop-color="#1DB8A0"/><stop offset="1" stop-color="#2DD4BF"/></linearGradient></defs></svg></div><p class="scorecard__calc-text" id="calcText">Analyzing your responses...</p><div class="scorecard__calc-bar"><div class="scorecard__calc-fill" id="calcFill"></div></div></div>
         <div class="scorecard__results" id="scorecardResults">
           <div class="scorecard__gauge-section" id="resultsBadge"><div class="scorecard__donut-wrap"><svg class="scorecard__donut" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><circle cx="100" cy="100" r="68" fill="rgba(255,255,255,0.02)"/><circle class="scorecard__donut-bg" cx="100" cy="100" r="82" stroke-width="22"/><circle id="donutArc" class="scorecard__donut-arc" cx="100" cy="100" r="82" stroke-width="22" stroke-dasharray="0 515.22"/></svg><div class="scorecard__donut-center"><div class="scorecard__donut-grade" id="donutGrade"></div><div class="scorecard__donut-sublabel">YOUR GRADE</div></div></div><div class="scorecard__grade-label" id="gradeLabel"></div><p class="scorecard__grade-desc" id="gradeDesc"></p><p class="scorecard__grade-attention" id="miniCtaText"></p></div>
+          <div class="scorecard__results-cta" id="resultsCta"><p class="scorecard__results-cta-context" id="ctaContext"></p><p class="scorecard__results-cta-tagline">90% of Vibe-Coded Apps Never Go Live.<br>Yours Can.</p><p class="scorecard__results-cta-sub">Permaship isn't just another AI coding tool. It's your engineering partner. It builds, monitors, and fixes your code around the clock. But nothing gets deployed until you approve the changes.</p><p class="scorecard__results-cta-diff">It's not an IDE plugin. It's not a vibe code platform. It's engineering-grade confidence starting at just $20/mo.</p><a href="https://control.permaship.ai/signup" class="btn-primary" style="font-size:1rem;padding:16px 32px">Get Started &#8594;</a><p class="scorecard__results-cta-pricing">Cancel anytime. No contracts.</p></div>
           <div class="scorecard__breakdown" id="categoryBreakdown"></div>
-          <div class="scorecard__results-cta" id="resultsCta"><p class="scorecard__results-cta-context" id="ctaContext"></p><p class="scorecard__results-cta-tagline" id="ctaTagline">Take The Vibe Out Of Your Code</p><p class="scorecard__results-cta-sub" id="ctaSub">You just saw where the gaps are. Permaship is the engineer that closes them. Not a plugin. Not another code generator. It builds, tests, deploys, and monitors your code. You approve every change.</p><a href="https://control.permaship.ai/signup" class="btn-primary" style="font-size:1rem;padding:16px 32px">See How It Works &#8594;</a><p class="scorecard__results-cta-pricing">No contracts. Cancel anytime.</p></div>
         </div>
       </div>
     </div>
   </section>
-    <section class="section-angled" style="padding:52px 0;background:var(--bg-surface)" id="sectionStakes"><div class="container"><div style="text-align:center"><div class="section-label reveal">Why It Matters</div><h2 class="reveal" style="font-size:clamp(1.8rem,4vw,2.7rem);font-weight:800;margin-bottom:14px">These gaps aren't theoretical.</h2><p class="reveal" style="font-size:1rem;color:var(--text-muted);max-width:520px;margin:0 auto;line-height:1.75">Real consequences from apps that went live without checking.</p></div><div class="stakes-grid reveal"><div class="stakes-card"><div class="stakes-stat">$200K</div><div class="stakes-label">cloud bill in 4 hours</div><p class="stakes-detail">A startup with no rate limiting went viral. They were bankrupt by morning.</p></div><div class="stakes-card"><div class="stakes-stat">72,000</div><div class="stakes-label">government IDs exposed</div><p class="stakes-detail">Tea App's database had zero access controls. Nobody hacked them. The data was just public.</p></div><div class="stakes-card"><div class="stakes-stat">45%</div><div class="stakes-label">of AI code has security flaws</div><p class="stakes-detail">Vibe-coded apps have 2.74x more vulnerabilities than human-written code. <span style="font-size:0.75rem;opacity:0.6">(Source: Stanford/Snyk, 2025)</span></p></div></div><div style="text-align:center;margin-top:var(--space-3xl)"><div class="section-label reveal">The Fix</div><h2 class="reveal" style="font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:800;margin-bottom:var(--space-lg)">Permaship closes the gaps.</h2></div><div class="fix-grid reveal"><div class="fix-item"><div><div class="fix-category">Testing</div><div class="fix-what">14 tests auto-generated per run</div></div></div><div class="fix-item"><div><div class="fix-category">Code Review</div><div class="fix-what">Every change gets a PR with automated checks</div></div></div><div class="fix-item"><div><div class="fix-category">Deployment</div><div class="fix-what">Automated pipeline with one-click rollback</div></div></div><div class="fix-item"><div><div class="fix-category">Security</div><div class="fix-what">Sandboxed execution, secrets never exposed</div></div></div><div class="fix-item"><div><div class="fix-category">Process</div><div class="fix-what">Request to PR in 22 minutes avg</div></div></div><div class="fix-item"><div><div class="fix-category">Governance</div><div class="fix-what">Full audit trail on every change</div></div></div></div></div></section>
-  <section style="padding:52px 0" id="sectionFaq"><div class="container-narrow"><div style="text-align:center"><div class="section-label reveal">FAQ</div><h2 class="reveal" style="font-size:clamp(1.8rem,4vw,2.4rem);font-weight:800;margin-bottom:52px">Questions? We've got answers.</h2></div><div style="display:flex;flex-direction:column;gap:7px" class="stagger"><details class="card faq-item reveal"><summary>How is this different from Cursor / Copilot / Bolt?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Those tools help you write code. Permaship does everything after: plans the work, writes production-ready code, runs tests, sets up deployment, creates the PR. Writing code is 20% of going live. Permaship handles the other 80%.</div></details><details class="card faq-item reveal"><summary>What if I scored well on the scorecard?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">That means you've got strong instincts. Permaship handles the ongoing work: writing tests, reviewing code, setting up automated pipelines, and keeping everything production-ready as your app evolves. Think of it as the senior engineer you don't have to hire.</div></details><details class="card faq-item reveal"><summary>Does Permaship work with my stack?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Yes. React, Next.js, Python, Node, Rails. If it runs on GitHub, Permaship handles it. We work with any language and framework.</div></details><details class="card faq-item reveal"><summary>Is my code safe?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Every task runs in a completely isolated environment. Your code stays in your repo. Nothing leaves without your approval.</div></details><details class="card faq-item reveal"><summary>Do I need to understand code to use Permaship?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">No. You describe what you want in plain language. Permaship handles the technical side: writing the code, running tests, reviewing for issues, and deploying. You just approve the changes before they go live.</div></details><details class="card faq-item reveal"><summary>Can I cancel anytime?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Yes. No contracts, no commitments. Cancel from your dashboard in one click.</div></details></div></div></section>
+    <section class="section-angled" style="padding:52px 0;background:var(--bg-surface)" id="sectionStakes"><div class="container"><div style="text-align:center"><div class="section-label reveal">Why It Matters</div><h2 class="reveal" style="font-size:clamp(1.8rem,4vw,2.7rem);font-weight:800;margin-bottom:14px">These gaps aren't theoretical.</h2><p class="reveal" style="font-size:1rem;color:var(--text-muted);max-width:520px;margin:0 auto;line-height:1.75">Real consequences from apps that shipped without checking.</p></div><div class="stakes-grid reveal"><div class="stakes-card"><div class="stakes-stat">$200K</div><div class="stakes-label">cloud bill in 4 hours</div><p class="stakes-detail">A startup with no rate limiting went viral. They were bankrupt by morning.</p></div><div class="stakes-card"><div class="stakes-stat">72,000</div><div class="stakes-label">government IDs exposed</div><p class="stakes-detail">Tea App's database had zero access controls. Nobody hacked them &#8212; the data was just public.</p></div><div class="stakes-card"><div class="stakes-stat">45%</div><div class="stakes-label">of AI code has security flaws</div><p class="stakes-detail">Vibe-coded apps have 2.74&#215; more vulnerabilities than human-written code.</p></div></div><div style="text-align:center;margin-top:var(--space-3xl)"><div class="section-label reveal">The Fix</div><h2 class="reveal" style="font-size:clamp(1.5rem,3.5vw,2.2rem);font-weight:800;margin-bottom:var(--space-lg)">Permaship closes the gaps.</h2></div><div class="fix-grid reveal"><div class="fix-item"><div><div class="fix-category">Testing</div><div class="fix-what">14 tests auto-generated per run</div></div></div><div class="fix-item"><div><div class="fix-category">Code Review</div><div class="fix-what">Every change gets a PR with automated checks</div></div></div><div class="fix-item"><div><div class="fix-category">Deployment</div><div class="fix-what">CI/CD pipeline with one-click rollback</div></div></div><div class="fix-item"><div><div class="fix-category">Security</div><div class="fix-what">Sandboxed execution, secrets never exposed</div></div></div><div class="fix-item"><div><div class="fix-category">Process</div><div class="fix-what">Request to PR in 22 minutes avg</div></div></div><div class="fix-item"><div><div class="fix-category">Governance</div><div class="fix-what">Full audit trail on every change</div></div></div></div></div></section>
+  <section style="padding:52px 0" id="sectionFaq"><div class="container-narrow"><div style="text-align:center"><div class="section-label reveal">FAQ</div><h2 class="reveal" style="font-size:clamp(1.8rem,4vw,2.4rem);font-weight:800;margin-bottom:52px">Questions? We've got answers.</h2></div><div style="display:flex;flex-direction:column;gap:7px" class="stagger"><details class="card faq-item reveal"><summary>How is this different from Cursor / Copilot / Bolt?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Those tools help you write code. Permaship does everything after: plans the work, writes production-ready code, runs tests, sets up deployment, creates the PR. Writing code is 20% of going live. Permaship handles the other 80%.</div></details><details class="card faq-item reveal"><summary>What if I scored well on the scorecard?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">That means you've got strong instincts. Permaship handles the ongoing work: writing tests, reviewing code, setting up CI/CD, and keeping everything production-ready as your app evolves. Think of it as the senior engineer you don't have to hire.</div></details><details class="card faq-item reveal"><summary>Does Permaship work with my stack?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Yes. React, Next.js, Python, Node, Rails &#8212; if it runs on GitHub, Permaship handles it. We work with any language and framework.</div></details><details class="card faq-item reveal"><summary>Is my code safe?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Every task runs in a completely isolated environment. Your code stays in your repo. Nothing leaves without your approval.</div></details><details class="card faq-item reveal"><summary>Can I cancel anytime?<span class="faq-icon" aria-hidden="true">+</span></summary><div class="faq-answer">Yes. No contracts, no commitments. Cancel from your dashboard in one click.</div></details></div></div></section>
   <footer id="siteFooter" style="padding:14px 0;border-top:1px solid var(--border-subtle)"><div class="container" style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px"><span style="font-size:0.72rem;color:var(--text-dim);font-family:var(--font-mono)">&#169; 2026 Permaship. All rights reserved.</span><div style="display:flex;gap:20px"><a href="https://permaship.ai/privacy-policy.html" style="font-size:0.72rem;color:var(--text-dim);text-decoration:none;font-family:var(--font-mono)">Privacy Policy</a><a href="https://permaship.ai/terms-of-service.html" style="font-size:0.72rem;color:var(--text-dim);text-decoration:none;font-family:var(--font-mono)">Terms of Service</a></div></div></footer>
   <script>
   (function(){
@@ -271,7 +273,6 @@
 
     /* -- Sticky CTA -- */
     var stickyCta = document.getElementById('sticky-cta');
-    var stickyHeadline = document.getElementById('stickyHeadline');
     var resultsShown = false;
     var resultsCta = document.getElementById('resultsCta');
     function checkSticky(){
@@ -293,7 +294,7 @@
         text: 'How do you deploy your app today?',
         helper: 'You just fixed a critical bug. How does that fix actually reach your users?',
         options: [
-          { label: 'Automated pipeline that tests and deploys on merge', score: 100 },
+          { label: 'Automated pipeline (CI/CD) that tests and deploys on merge', score: 100 },
           { label: 'One-click deploy via Vercel, Netlify, Railway, etc.', score: 75 },
           { label: 'I manually push or upload files', score: 35 },
           { label: "I haven't deployed yet", score: 0 }
@@ -305,7 +306,7 @@
         text: 'What does your test coverage look like?',
         helper: "You changed the login flow. How do you know the checkout didn't break?",
         options: [
-          { label: 'Good coverage across unit, integration, and end-to-end tests', score: 100 },
+          { label: 'Good coverage across unit, integration, and/or e2e tests', score: 100 },
           { label: 'Some tests for critical paths', score: 60 },
           { label: 'A few tests but nothing consistent', score: 25 },
           { label: 'No tests', score: 0 }
@@ -317,7 +318,7 @@
         text: 'Who reviews your code before it goes to production?',
         helper: 'Think about the last change that went live. Who else looked at it first?',
         options: [
-          { label: 'PR reviews with automated checks (formatting, tests, security scans)', score: 100 },
+          { label: 'PR reviews with automated checks (linting, tests, security scans)', score: 100 },
           { label: 'A teammate or collaborator looks at it before merge', score: 65 },
           { label: 'I review my own code', score: 30 },
           { label: 'Code goes straight to production', score: 0 }
@@ -351,11 +352,11 @@
         id: 'tracking',
         category: 'Process',
         text: 'How do you track work from request to production?',
-        helper: 'Your cofounder asks "what went live this week?" Can you answer in 30 seconds?',
+        helper: 'Your cofounder asks "what shipped this week?" Can you answer in 30 seconds?',
         options: [
-          { label: 'End-to-end: ticket, plan, code, tests, review, deploy. All tracked', score: 100 },
+          { label: 'End-to-end: ticket, plan, code, tests, review, deploy \u2014 all tracked', score: 100 },
           { label: 'We use a project board and PRs but handoffs are manual', score: 65 },
-          { label: "Slack messages or mental notes. I just remember what needs doing", score: 30 },
+          { label: 'Slack messages or mental notes \u2014 I just remember what needs doing', score: 30 },
           { label: 'I work on whatever feels most urgent with no tracking', score: 0 }
         ]
       },
@@ -363,9 +364,9 @@
         id: 'audit',
         category: 'Governance',
         text: 'Can you trace what changed, when, and why in your codebase?',
-        helper: 'A potential investor asks how you track changes. What can you show them?',
+        helper: 'An enterprise customer asks for your change log. What can you show them?',
         options: [
-          { label: 'Full audit trail: every change has a ticket, PR, review, and approval record', score: 100 },
+          { label: 'Full audit trail \u2014 every change has a ticket, PR, review, and approval record', score: 100 },
           { label: 'We use PRs and commit messages but traceability is inconsistent', score: 60 },
           { label: "Changes go into git but there's no clear trail from request to deploy", score: 25 },
           { label: "I honestly wouldn't know what changed last week", score: 0 }
@@ -414,8 +415,6 @@
       gradeDesc: document.getElementById('gradeDesc'),
       miniCtaText: document.getElementById('miniCtaText'),
       ctaContext: document.getElementById('ctaContext'),
-      ctaTagline: document.getElementById('ctaTagline'),
-      ctaSub: document.getElementById('ctaSub'),
       breakdown: document.getElementById('categoryBreakdown'),
       navCta: document.getElementById('navCta'),
       heroSection: document.getElementById('scorecard')
@@ -617,17 +616,6 @@
         els.miniCtaText.textContent = 'Permaship can handle the rest.';
       }
 
-      /* Score-aware CTA copy */
-      if(overall >= 70){
-        els.ctaTagline.textContent = 'Take The Vibe Out Of Your Code';
-        els.ctaSub.textContent = "You've got solid instincts. Permaship keeps your app production-grade as it grows. It builds, tests, deploys, and monitors your code. You approve every change.";
-        stickyHeadline.textContent = 'Your foundation is solid. Permaship makes it bulletproof.';
-      } else {
-        els.ctaTagline.textContent = 'Take The Vibe Out Of Your Code';
-        els.ctaSub.textContent = "You just saw where the gaps are. Permaship is the engineer that closes them. It builds, tests, deploys, and monitors your code. You approve every change.";
-        stickyHeadline.textContent = 'Your score revealed gaps. Permaship can fix them.';
-      }
-
       /* CTA context */
       var weakCats = [];
       Object.keys(cats).forEach(function(c){
@@ -665,7 +653,7 @@
 
         var scoreEl = document.createElement('span');
         scoreEl.className = 'scorecard__category-score score-' + catGrade.cls;
-        scoreEl.textContent = Math.round(avg) + '% - ' + catGrade.label;
+        scoreEl.textContent = Math.round(avg) + '% \u2014 ' + catGrade.label;
         header.appendChild(scoreEl);
 
         row.appendChild(header);
